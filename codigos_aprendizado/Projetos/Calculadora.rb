@@ -10,49 +10,50 @@ print "Escolha: "
 escolha = gets.chomp.to_i
 
 case escolha
-when 1
-    puts "Informe o primeiro numero: "
-    num1 = gets.chomp.to_i  
-    puts "Informe o segundo numero: "
-    num2 = gets.chomp.to_i
-    
-    result = num1 + num2
+    when 1
+        puts "Informe o primeiro numero: "
+        num1 = gets.chomp.to_i  
+        puts "Informe o segundo numero: "
+        num2 = gets.chomp.to_i
+        
+        result = num1 + num2
 
-    puts "Resultado: #{result}"
+        puts "Resultado: #{result}"
 
-when 2
-    puts "Informe o primeiro numero: "
-    num1 = gets.chomp.to_i
-    puts "Informe o segundo numero: "
-    num2 = gets.chomp.to_i
-    
-    result = num1 - num2
+    when 2
+        puts "Informe o primeiro numero: "
+        num1 = gets.chomp.to_i
+        puts "Informe o segundo numero: "
+        num2 = gets.chomp.to_i
+        
+        result = num1 - num2
 
-    puts "Resultado: #{result}"
+        puts "Resultado: #{result}"
 
-when 3
-    puts "Informe o primeiro numero: "
-    num1 = gets.chomp.to_i  
-    puts "Informe o segundo numero: "
-    num2 = gets.chomp.to_i
-    
-    result = num1 * num2
+    when 3
+        puts "Informe o primeiro numero: "
+        num1 = gets.chomp.to_i  
+        puts "Informe o segundo numero: "
+        num2 = gets.chomp.to_i
+        
+        result = num1 * num2
 
-    puts "Resultado: #{result}"
+        puts "Resultado: #{result}"
 
-when 4
-    puts "Informe o primeiro numero: "
-    num1 = gets.chomp.to_i  
-    puts "Informe o segundo numero: "
-    num2 = gets.chomp.to_i 
-    
-    result = num1 / num2
+    when 4
+        puts "Informe o primeiro numero: "
+        num1 = gets.chomp.to_i  
+        puts "Informe o segundo numero: "
+        num2 = gets.chomp.to_i 
+        
+        result = num1 / num2
 
-    puts "Resultado: #{result}"
+        puts "Resultado: #{result}"
 
-when 0 
-    3.times do
-        puts
-        puts "Saindo..."
-    end
+    when 0 
+        3.times do
+            puts
+            puts "Saindo..."
+        end
 end
+
