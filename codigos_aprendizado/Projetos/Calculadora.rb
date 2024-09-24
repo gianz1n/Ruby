@@ -53,7 +53,7 @@ case escolha
     when 0 
         3.times do
             puts
-            puts "Saindo..."
+            print "Saindo..."
         end
 end
 
